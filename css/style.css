@@ -88,6 +88,11 @@ article {
     cursor: pointer;
     background-color: #f5ebdc;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+article:hover{
+    transform: scale(1.2);
 }
 
 article .hamburguer-conteiner,
