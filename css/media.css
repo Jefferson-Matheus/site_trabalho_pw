@@ -1,0 +1,84 @@
+@media (min-width: 330px) and (max-width: 470px) {
+    .header-page {
+        justify-content: center;
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .sliderConteiner {
+        margin-top: 0;
+    }
+
+    .hambuguers-conteiner,
+    .drinks-conteiner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .title-page {
+        font-size: 18px;
+    }
+
+    .footer-page {
+        position: absolute;
+    }
+
+    .hambuguers-section h2,
+    .drinks-section h2 {
+        text-align: center;
+    }
+
+    .contacts-phoneNumbers {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .phone-numbers {
+        margin-left: 0;
+    }
+
+    .social-media {
+        margin-right: 0;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 700px) {
+    .header-page {
+        justify-content: center;
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .sliderConteiner {
+        margin-top: 0;
+    }
+
+    article {
+        width: 40%;
+    }
+
+    .hambuguers-section h2,
+    .drinks-section h2 {
+        margin-left: 8%;
+    }
+
+}
+
+@media (min-width: 701px) and (max-width:800px) {
+    article {
+        width: 45%;
+    }
+}
