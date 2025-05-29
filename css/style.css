@@ -25,6 +25,10 @@ html {
     padding: 1.5em;
     color: rgb(80, 35, 20);
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 nav a {
@@ -33,37 +37,39 @@ nav a {
     margin-right: 10px;
 }
 
-.sliderConteiner{
+.sliderConteiner {
     width: 100%;
     height: 500px;
     overflow: hidden;
+    margin-top: 70px;
+    scroll-margin-top: 150px;
 }
 
-.sliderShow{
+.sliderShow {
     width: 300%;
     display: flex;
     transition: margin-left 0.5s;
 }
 
-.silde{
+.silde {
     width: 33.33%;
 }
 
-.silde img{
+.silde img {
     width: 100%;
     height: 500px;
 }
 
-#radio1:checked ~ .sliderShow{
-  margin-left: 0;
+#radio1:checked~.sliderShow {
+    margin-left: 0;
 }
 
-#radio2:checked ~ .sliderShow {
-  margin-left: -100%;
+#radio2:checked~.sliderShow {
+    margin-left: -100%;
 }
 
-#radio3:checked ~ .sliderShow {
-  margin-left: -200%;
+#radio3:checked~.sliderShow {
+    margin-left: -200%;
 }
 
 input {
@@ -74,7 +80,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-bottom: 5%;
 }
 
@@ -86,10 +92,11 @@ input {
     padding: 10px 0 30px 0;
     margin-bottom: 20px;
     border: 1px solid #c49b63;
+    scroll-margin-top: 150px;
 }
 
 .hambuguers-section h2,
-.drinks-section h2{
+.drinks-section h2 {
     margin-left: 7%;
 }
 
@@ -115,8 +122,8 @@ article {
     transition: transform 0.3s ease-in-out;
 }
 
-article:hover{
-    transform: scale(1.2);
+article:hover {
+    transform: scale(1.1);
 }
 
 article .hamburguer-conteiner,
@@ -183,4 +190,3 @@ article .infomations h3 {
     position: absolute;
     bottom: 0;
 }
-
