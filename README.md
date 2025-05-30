@@ -13,4 +13,18 @@ Este projeto é um site de hamburgueria desenvolvido como parte do trabalho da d
 
 ---
 
+![Image](https://github.com/user-attachments/assets/4c6e9731-e802-454d-bd5e-e0f9daecd484)
+
+
+
+# Instalação
+
+1. Clone o Repositório
+
+   ```bash
+       
+     
+
+
+
 
