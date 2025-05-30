@@ -3,4 +3,8 @@ Site para o trabalho de padrões web
 
 Este projeto é um site de hamburgueria desenvolvido como parte do trabalho da disciplina de Padrões Web. O objetivo foi aplicar os conceitos aprendidos em aula na criação de uma página moderna para um lanchonete utilizando HTML, CSS e JavaScript puro.
 
+# Imagens Do Projeto
+
+![Image](https://github.com/user-attachments/assets/824a1ab5-568c-4dac-b2fc-0c87ba73c7a4)
+
 
