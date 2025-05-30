@@ -19,9 +19,13 @@ Este projeto é um site de hamburgueria desenvolvido como parte do trabalho da d
 
 # Instalação
 
-1. Clone o Repositório
+- Clone o Repositório
 
    ```bash
+   https://github.com/Jefferson-Matheus/site_trabalho_pw.git
+   ```
+
+   Após A Clonagem Abra O Arquivo Index.html Em Seu Navegador De Preferênica.
        
      
 
