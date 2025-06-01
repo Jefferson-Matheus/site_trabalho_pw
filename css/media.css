@@ -8,11 +8,11 @@
         display: none;
     }
 
-    .sliderConteiner {
+    .carrossel-conteiner {
         margin-top: 0;
     }
 
-    .hambuguers-conteiner,
+    .hamburgers-conteiner,
     .drinks-conteiner {
         flex-direction: column;
         align-items: center;
@@ -31,24 +31,11 @@
         position: absolute;
     }
 
-    .hambuguers-section h2,
+    .hamburgers-section h2,
     .drinks-section h2 {
         text-align: center;
     }
 
-    .contacts-phoneNumbers {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .phone-numbers {
-        margin-left: 0;
-    }
-
-    .social-media {
-        margin-right: 0;
-    }
 }
 
 
@@ -62,7 +49,7 @@
         display: none;
     }
 
-    .sliderConteiner {
+    .carrossel-conteiner {
         margin-top: 0;
     }
 
@@ -70,7 +57,7 @@
         width: 40%;
     }
 
-    .hambuguers-section h2,
+    .hamburgers-section h2,
     .drinks-section h2 {
         margin-left: 8%;
     }
