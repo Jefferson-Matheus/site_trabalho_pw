@@ -37,7 +37,7 @@ nav a {
     margin-right: 10px;
 }
 
-.sliderConteiner {
+.carrossel-conteiner {
     width: 100%;
     height: 500px;
     overflow: hidden;
@@ -45,30 +45,30 @@ nav a {
     scroll-margin-top: 150px;
 }
 
-.sliderShow {
+.carrossel {
     width: 300%;
     display: flex;
     transition: margin-left 0.5s;
 }
 
-.silde {
+.slide {
     width: 33.33%;
 }
 
-.silde img {
+.slide img {
     width: 100%;
     height: 500px;
 }
 
-#radio1:checked~.sliderShow {
+#radio1:checked~.carrossel {
     margin-left: 0;
 }
 
-#radio2:checked~.sliderShow {
+#radio2:checked~.carrossel {
     margin-left: -100%;
 }
 
-#radio3:checked~.sliderShow {
+#radio3:checked~.carrossel {
     margin-left: -200%;
 }
 
@@ -84,7 +84,7 @@ input {
     margin-bottom: 5%;
 }
 
-.hambuguers-section,
+.hamburgers-section,
 .drinks-section {
     width: 100vw;
     height: auto;
@@ -95,12 +95,12 @@ input {
     scroll-margin-top: 150px;
 }
 
-.hambuguers-section h2,
+.hamburgers-section h2,
 .drinks-section h2 {
     margin-left: 7%;
 }
 
-.hambuguers-conteiner,
+.hamburgers-conteiner,
 .drinks-conteiner {
     display: flex;
     flex-wrap: wrap;
@@ -126,29 +126,29 @@ article:hover {
     transform: scale(1.1);
 }
 
-article .hamburguer-conteiner,
-.drink-conteiner {
+article .hamburguer-img-conteiner,
+.drink-img-conteiner {
     width: 100%;
     height: 20vh;
     margin-bottom: 8px;
 }
 
 
-article .infomations {
+article .informations {
     width: 100%;
 }
 
-article .infomations ul {
+article .informations ul {
     margin-left: 20px;
 }
 
-article .infomations h3 {
+article .informations h3 {
     margin-left: 20px;
     margin-bottom: 5px;
 }
 
-.hamburguer-conteiner img,
-.drink-conteiner img {
+.hamburguer-img-conteiner img,
+.drink-img-conteiner img {
     width: 100%;
     height: 100%;
 }
@@ -172,21 +172,13 @@ article .infomations h3 {
 
 .contacts-phoneNumbers {
     display: flex;
-    justify-content: space-between;
-    ;
+    justify-content: space-around;
     width: 100%;
     margin-bottom: 10px;
 }
 
-.phone-numbers {
-    margin-left: 100px;
-}
 
-.social-media {
-    margin-right: 100px;
-}
-
-.copywrite {
+.copyright {
     position: absolute;
     bottom: 0;
 }
